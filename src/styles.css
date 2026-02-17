@@ -1,12 +1,48 @@
 body {
   background: rgb(167, 167, 204);
 }
+.box {
+  background: lavender;
+  border-radius: 20px;
+  border: double solid blue 5px;
+  padding: 20px;
+  position: relative;
+  top: 100px;
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: inset black;
+}
 h1 {
   color: blue;
   text-align: center;
-  margin-top: 50px;
+  font-size: 40px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.search {
+  font-size: 15px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid rgb(49, 0, 128) 2px;
+}
+.enter {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid rgb(49, 0, 128) 2px;
+}
+.enter:hover {
+  background: blue;
+  color: white;
+  transition: all 200ms ease-in-out;
 }
 footer {
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
