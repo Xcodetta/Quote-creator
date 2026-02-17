@@ -8,8 +8,22 @@
     <title>AI Quote Generator</title>
   </head>
   <body>
-    <h1>Quote of the Day</h1>
-    <script scr="scr/index.js"></script>
+    <div class="box">
+      <header><h1>Quote of the Day</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter what kind of quote you wish to receive."
+            autofocus
+            required
+            class="search"
+            autocomplete="off"
+          />
+          <input type="submit" class="enter" />
+        </form>
+      </main>
+      <script scr="scr/index.js"></script>
     <footer>
       This was coded by Dani J. and is available on
       <a href="https://github.com/Xcodetta/Quote-creator" target="_blank"
@@ -19,4 +33,7 @@
       <a href="https://ai-quote-make.netlify.app/" target="_blank">Netlify</a>.
     </footer>
   </body>
+    </div>
+
+    
 </html>
