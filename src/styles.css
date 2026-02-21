@@ -1,5 +1,6 @@
 body {
   background: rgb(167, 167, 204);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .box {
   background: lavender;
@@ -41,8 +42,25 @@ form {
   color: white;
   transition: all 200ms ease-in-out;
 }
+a:hover {
+  color: red;
+}
 footer {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+p {
+  text-align: center;
+}
+.quote {
+  margin: 0 auto;
+  display: block;
+  background: lavender;
+  border-radius: 20px;
+  border: double solid blue 5px;
+  padding: 20px;
+  position: relative;
+  top: 150px;
+  width: 600px;
 }
