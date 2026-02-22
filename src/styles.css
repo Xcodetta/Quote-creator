@@ -50,9 +50,6 @@ footer {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-p {
-  text-align: center;
-}
 .quote {
   margin: 0 auto;
   display: block;
@@ -63,4 +60,5 @@ p {
   position: relative;
   top: 150px;
   width: 600px;
+  text-align: center;
 }
