@@ -23,7 +23,7 @@ function createQuote(event) {
   console.log(`Context: ${context}`);
 
   let quoteForm = document.querySelector("#quote");
-  quoteForm.innerHTML = "Quote incoming...";
+  quoteForm.innerHTML = `<div class="blink">"Quote incoming..."</div>`;
 
   axios.get(apiURL).then(typeQuote);
 }
